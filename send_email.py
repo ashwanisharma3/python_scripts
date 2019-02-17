@@ -24,7 +24,7 @@ smtpObj.ehlo()
 smtpObj.starttls()
 smtpObj.login('example@outlook.com','password')
 
-#body="Subject: Interview time for Assistant Coordinator. \n\nDear %s,\nYour interview for Assistant Coordinator has been scheduled at %s on %s. Please, reach LT complex 5 minutes before your scheduled time.\nBe on time. Good Luck.\n\nISSACC Coordinators\nAshwani Sharma (+91-9457178883)\nAnushka Awasthi" % (name,tm,dt)
+#body="Subject: Interview time. \n\nDear %s,\nYour interview has been scheduled at %s on %s. Please, reach 5 minutes before your scheduled time.\nBe on time. Good Luck.\n" % (name,tm,dt)
 #print ('Sending email to %s...' % name)
 #sendmailstatus=smtpObj.sendmail('from','to',body)
 
